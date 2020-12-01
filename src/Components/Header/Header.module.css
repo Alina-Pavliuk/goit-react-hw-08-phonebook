@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+}
+.navList {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+   text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 26px;
+  width: 50%;
+}
+
+.navList__item {
+  font-size: 30px;
+  padding: 15px;
+}
+
+.navList__item_link {
+  text-decoration: none;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-size: 26px;
+
+}
+
+.navList__item_active_link {
+  color: rgb(245, 20, 20);
+}

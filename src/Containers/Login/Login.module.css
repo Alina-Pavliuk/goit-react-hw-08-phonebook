@@ -1,0 +1,27 @@
+.loginForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+  border: solid 1px gray;
+  padding: 15px;
+}
+.loginInput {
+  display: block;
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size: 20px;
+}
+.loginButton {
+  padding: 10px;
+  font-size: 20px;
+}
+.loginTitle {
+  font-size: 30px;
+  text-align: center;
+}
+.loginMessage {
+  text-align: center;
+  font-size: 20px;
+}

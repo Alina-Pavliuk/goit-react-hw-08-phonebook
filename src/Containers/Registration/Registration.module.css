@@ -1,0 +1,27 @@
+.registrationForm{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+  border: solid 1px gray;
+  padding: 15px;
+}
+.registrationInput {
+  display: block;
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size: 20px;
+}
+.registrationButton {
+  padding: 10px;
+  font-size: 20px;
+}
+.registrationTitle {
+  font-size: 30px;
+  text-align: center;
+}
+.registrationMessage {
+  text-align: center;
+  font-size: 20px;
+}
