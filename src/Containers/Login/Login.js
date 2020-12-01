@@ -54,7 +54,10 @@ const Login = () => {
         </label>
         <button type="submit" className={styles.loginButton}>Login</button>
       </form>
-      <p className={styles.loginMessage} >If you don't have an account please <NavLink to={navigation.registration}>Sing UP</NavLink></p>
+      <p className={styles.loginMessage} >
+        If you don't have an account please
+        <NavLink to={navigation.registration} className={styles.loginNavLink}>Sing UP</NavLink>
+      </p>
     </div>
   );
 };

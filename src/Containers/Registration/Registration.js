@@ -67,7 +67,9 @@ const Registration = () => {
         </label>
         <button type="submit" className={styles.registrationButton}>Sing Up</button>
       </form>
-      <p className={styles.registrationMessage}>If you already have an account please <NavLink to={navigation.login}>LOGIN</NavLink></p>
+      <p className={styles.registrationMessage}>
+        If you already have an account please
+        <NavLink to={navigation.login} className={styles.registrationNavLink}>LOGIN</NavLink></p>
     </div>
   );
 };

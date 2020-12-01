@@ -9,7 +9,19 @@
 
 .buttonUserMenu {
   width: 100px;
-    height: 30px;
-    font-size: 18px;
-    background: whit
+  height: 30px;
+  font-size: 18px;
+  background-image: linear-gradient(47.73deg, rgb(23, 169, 226) 15.48%, rgb(82, 236, 203) 81.25%);
+  cursor: pointer;
+  text-transform: uppercase;
+  color: aliceblue;
+  display: block;
+  border: none;
+  border-radius: 10px;
+  margin: 0 auto;
+
+}
+
+.buttonUserMenu:hover {
+  background: red;
 }
